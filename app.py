@@ -3,6 +3,7 @@ from flask_cors import CORS
 import requests
 
 app = Flask(__name__)
+CORS(app)
 
 OFF_BASE_URL = "https://world.openfoodfacts.org/api/v2"
 
