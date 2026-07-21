@@ -5,7 +5,7 @@ import requests
 app = Flask(__name__)
 CORS(app)
 
-OFF_BASE_URL = "https://world.openfoodfacts.org/api/v2"
+OFF_BASE_URL = "https://world.openfoodfacts.net/api/v2/product/{barcode}"
 
 
 INVENTORY = [
